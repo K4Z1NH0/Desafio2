@@ -1,0 +1,113 @@
+body{
+    background-color: #F2F2F2;
+}
+
+.cards{
+    display: flex;
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+
+}
+
+.sedans {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #E28525;
+    padding: 30px;
+    width: 170px;
+    transition: all 0.3s ease-out;
+    padding-left: 35px;
+  }
+
+
+  .suvs {
+    background-color: #06676E;
+    padding: 30px;
+    width: 170px;
+    transition: all 0.3s ease-out;
+    padding-left: 35px;
+  }
+
+  .luxury{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #00403F;
+    padding: 30px;
+    width: 170px;
+    transition: all 0.3s ease-out;  
+    padding-left: 35px;    
+  }
+
+  h1 {
+    color:#fff;
+   font-family: 'Oswald', sans-serif; 
+    margin-bottom: 35px;
+    
+}
+
+p{
+    color:#fff;
+    opacity: 0.6;
+    margin-bottom: 95px;
+    font-size:15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+.btn-sedans{
+    border-radius: 50px;
+    background-color: #fff;
+    color:#E28525;
+    border: solid 2px #ffffff;
+    padding: 10px;
+    width: 130px;
+    
+}
+
+.btn-sedans:hover{
+    background-color: #E28525;
+    color:#fff;
+    transition: 0.8s;
+    background-color: transparent;
+    cursor:pointer; 
+}
+
+.btn-suvs{
+    border-radius: 50px;
+    background-color: #fff;
+    color:#06676E;
+    border: solid 2px #ffffff;
+    padding: 10px;
+    width: 130px;
+}
+
+.btn-suvs:hover{
+    background-color: #06676E;
+    color:#fff;
+    transition: 0.8s;
+    background-color: transparent;
+    cursor:pointer;
+}
+
+.btn-luxury{
+    border-radius: 50px;
+    background-color: #fff;
+    color:#00403F;
+    border: solid 2px #ffffff;
+    padding: 10px;
+    width: 130px;
+}
+
+.btn-luxury:hover{
+    background-color: #00403F;
+    color:#fff;
+    transition: 0.8s;
+    background-color: transparent;
+    cursor:pointer;
+}
